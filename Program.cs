@@ -16,10 +16,11 @@ internal class Program
         // Call MathTime class and run the Run method to give the array rollTallies its values
         int[] rollTallies = MathTime.Run(numRolls);
         
+        Console.WriteLine($"\nDICE ROLLING SIMULATION RESULTS\nEach \"*\" represents 1% of the total number of rolls.\nTotal number of rolls = {numRolls}.\n");
+        
         // With the values, print out how many times each number was rolled and make a histogram using the results
         for (int tally = 0; tally < rollTallies.Length; tally++)
         {
-            Console.WriteLine($"{tally + 2} was rolled {rollTallies[tally]} times");
             
             // Calculate what percentage of the rolls that number made up and use that percentage to determine the number of stars
             double percent = ((double)rollTallies[tally] / numRolls) * 100;
@@ -28,7 +29,8 @@ internal class Program
             string stars = new string('*', numStars);
             
             // Print the stars along with the percentage 
-            Console.WriteLine($"{tally + 2}: {stars} ({percent}%)");
+            Console.WriteLine($"{tally + 2}: {stars}");
         }
+        Console.WriteLine($"\n\nThank you for using the dice throwing simulator. Goodbye!");
     }
 }
