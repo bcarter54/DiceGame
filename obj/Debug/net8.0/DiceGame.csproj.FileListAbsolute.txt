@@ -12,3 +12,4 @@
 /Users/bcarter/RiderProjects/DiceGame/obj/Debug/net8.0/DiceGame.pdb
 /Users/bcarter/RiderProjects/DiceGame/obj/Debug/net8.0/DiceGame.genruntimeconfig.cache
 /Users/bcarter/RiderProjects/DiceGame/obj/Debug/net8.0/ref/DiceGame.dll
+/Users/bcarter/RiderProjects/DiceGame/obj/Debug/net8.0/DiceGame.sourcelink.json
