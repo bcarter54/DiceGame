@@ -12,8 +12,7 @@ public class MathTime
         //For loop designed to run for as many rolls as requested by the user
         for (int iCount = 0; iCount < numRolls; iCount++)
         {
-            // Randomization represented by the variable dice used to simulate dice rolls
-            Random dice = new Random();
+            // Dice1 and Dice2 use the RollDice method to simulate the rolling of dice and use the results for the sum
             int dice1 = RollDice();
             int dice2 = RollDice();
             
@@ -28,6 +27,7 @@ public class MathTime
         
     }
 
+    // RollDice method generates random number between 1 and 6 to simulate the roll. Returns results to call in Run method
     public static int RollDice()
     {
         Random rnd = new Random();
