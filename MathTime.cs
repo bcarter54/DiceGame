@@ -1,3 +1,7 @@
+// Bryce Carter
+// Section 1
+// Create a program that simulates the rolling of 2 6-sided die and the number of rolls is determined by the user
+
 namespace DiceGame;
 
 //MathTime class is in charge of handling the dice rolls as well as providing the array with the sums of the rolls

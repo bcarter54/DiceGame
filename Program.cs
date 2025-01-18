@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// Bryce Carter
+// Section 1
+// Create a program that simulates the rolling of 2 6-sided die and the number of rolls is determined by the user 
+
 
 using DiceGame;
 
